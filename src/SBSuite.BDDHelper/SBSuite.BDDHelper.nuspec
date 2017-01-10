@@ -12,7 +12,7 @@
     <releaseNotes>First release</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <dependencies>
-    
+      <dependency id="NUnit" version="3.5.0" />
     </dependencies>
   </metadata>
 </package>
