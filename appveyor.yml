@@ -17,6 +17,8 @@ assembly_info:
 
 before_build:
   - nuget restore
+  - ps: test-path C:\projects\sbsuite-bddhelper\src\SBSuite.BDDHelper\packages
+  - ps: test-path C:\projects\sbsuite-bddhelper\packages
 
 nuget:
   account_feed: true
