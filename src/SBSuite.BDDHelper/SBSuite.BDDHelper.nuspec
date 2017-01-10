@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SBSuite.BDDHelper</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Bayer-ClinicalPharmacometrics</authors>
+    <owners>Bayer-ClinicalPharmacometrics</owners>
+    <projectUrl>https://github.com/Bayer-ClinicalPharmacometrics/SBSuite.BDDHelper.git</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Helper functions for BDD Development</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <dependencies>
+      <dependency id="NUnit" version="3.5.0" />
+    </dependencies>
+  </metadata>
+</package>
