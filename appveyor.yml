@@ -12,8 +12,8 @@ assembly_info:
   assembly_file_version: "{version}"	
   assembly_informational_version: "%app_version%"
 
-cache:
-  - packages -> **\packages.config  # preserve "packages" directory in the root of build folder but will reset it if packages.config is modified
+#cache:
+#  - packages -> **\packages.config  # preserve "packages" directory in the root of build folder but will reset it if packages.config is modified
 
 before_build:
   - nuget restore
