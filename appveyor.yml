@@ -24,8 +24,7 @@ nuget:
 build:
   publish_nuget: true
   project: SBSuite.BDDHelper.sln 
-  verbosity: minimal
-
+  
 test: off #no test in helper dll
 
 deploy:
