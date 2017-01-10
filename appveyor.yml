@@ -27,10 +27,10 @@ build:
   
 test: off #no test in helper dll
 
-deploy:
-  provider: NuGet
-  on:
-    branch: master
-  api_key: 
-    secure: KiMrq1Jx5rLhBOlyK7sNXjA2WtKtKFfOjO2yQbvQWFtALIPD0fZw47CCH62SF8My
-  artifact: /.*\.nupkg/
+#deploy:
+#  provider: NuGet
+#  on:
+#    branch: master
+#  api_key: 
+#    secure: KiMrq1Jx5rLhBOlyK7sNXjA2WtKtKFfOjO2yQbvQWFtALIPD0fZw47CCH62SF8My
+#  artifact: /.*\.nupkg/
